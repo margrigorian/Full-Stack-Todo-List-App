@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.fon {
+    position: relative;
+    background: linear-gradient(rgb(255, 255, 255), rgb(64, 115, 130));
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerText {
+    padding: 5% 0 4% 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(201, 207, 207);
+}
+.pagination{
+    display: flex;
+    color: black;
+    padding-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(148, 150, 150);
+}
+.page{
+    padding: 5px 15px;
+    margin: 0 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.page:hover {
+    background-color: rgba(193, 229, 237, 0.5);
+}
+.loading {
+    padding: 5% 0 4% 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(212, 216, 218);
+}
+.container {
+    display: flex;
+    justify-content: center;    
+}
+.expeditionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%;
+}
+.expedition{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 280px;
+    height: 170px;
+    margin: 1%;
+    padding: 1%;
+    background-image: url('../../pictures/card.jpg');
+    background-size: cover;
+    color: rgba(3, 65, 86, 0.7);
+    border: 1.5px solid white;
+}
+.expeditionsHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.iconContainer {
+    padding-left: 15%;
+    display: flex;
+    align-items: center;
+}
+.title {
+    width: 90%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.editIcon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../pictures/edit-4.png');
+    opacity: 0.5;
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+}
+.basket{
+    width: 25px;
+    height: 25px;
+    background-image: url('../../pictures/basket.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.button {
+    width: 40%;
+    padding: 2%;
+    align-self: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: rgba(3, 65, 86, 0.6);
+    font-weight: bold;
+    background-color: rgb(221, 224, 224, 0.7);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(221, 224, 224, 0.9);
+}

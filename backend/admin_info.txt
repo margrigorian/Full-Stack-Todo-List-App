@@ -1,0 +1,11 @@
+Admin
+
+Name: Marine
+Email: m@gmail.com
+Password: 123
+
+User
+
+Name: Rita
+Email: r@gmail.com
+Password: 456

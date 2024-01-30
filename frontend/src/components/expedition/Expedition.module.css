@@ -1,0 +1,46 @@
+.expedition{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 180px;
+    /* width: 20%; */
+    height: 100px;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(6, 50, 65, .7);
+    color: white;
+    cursor: pointer;
+}
+.editContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    width: 90%;
+    font-weight: bold;
+}
+.editIcon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../pictures/edit-7.png');
+    opacity: 0.5;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.checkboxContainer{
+    display: flex;
+    align-items:center;
+    color: rgb(140, 212, 236);
+}
+.checkbox{
+   width: 15px;
+   height: 15px;
+   margin: 0 5px 0 10px;
+   cursor: pointer;
+}
+.basket{
+    width: 25px;
+    height: 25px;
+    background-image: url('../../pictures/basket.png');
+    background-size: 100% 100%;
+}

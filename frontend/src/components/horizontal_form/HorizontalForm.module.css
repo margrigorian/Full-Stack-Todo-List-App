@@ -1,0 +1,35 @@
+.addExpeditionContainer{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 5% 0 1% 0;
+    padding: 1%;
+    background-color: rgb(255, 255, 255, .4);
+}
+.textAddExpedition{
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(9, 74, 96);
+    font-size: 16px;
+    margin-left: 10%;
+}
+.addExpeditionInput {
+    width: 30%;
+    background-color: rgb(6, 45, 58);
+    color: white;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 0% 2%;
+    border: 1px solid white;
+}
+.addExpeditionButton {
+    padding: 1%;
+    width: 20%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: rgb(18, 106, 135);
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
